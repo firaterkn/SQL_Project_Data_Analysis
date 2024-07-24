@@ -11,12 +11,13 @@ Question: What are the top-paying data analyst jobs?
 
 SELECT	
 	job_id,
+  job_title_short,
 	job_title,
 	job_location,
 	job_schedule_type,
 	salary_year_avg,
 	job_posted_date,
-    name AS company_name
+  name AS company_name
 FROM
     job_postings_fact
 LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
@@ -29,7 +30,8 @@ ORDER BY
 LIMIT 10;
 
 /*
-Here's the breakdown of the top data analyst jobs in 2023:
+The breakdown of the top data analyst jobs in 2023:
+
 Wide Salary Range: Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
 Diverse Employers: Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 Job Title Variety: There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
@@ -39,6 +41,7 @@ RESULTS
 [
   {
     "job_id": 226942,
+    "job_title_short": "Data Analyst",
     "job_title": "Data Analyst",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -48,6 +51,7 @@ RESULTS
   },
   {
     "job_id": 547382,
+    "job_title_short": "Data Analyst",
     "job_title": "Director of Analytics",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -57,6 +61,7 @@ RESULTS
   },
   {
     "job_id": 552322,
+    "job_title_short": "Data Analyst",
     "job_title": "Associate Director- Data Insights",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -66,6 +71,7 @@ RESULTS
   },
   {
     "job_id": 99305,
+    "job_title_short": "Data Analyst",
     "job_title": "Data Analyst, Marketing",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -75,6 +81,7 @@ RESULTS
   },
   {
     "job_id": 1021647,
+    "job_title_short": "Data Analyst",
     "job_title": "Data Analyst (Hybrid/Remote)",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -84,6 +91,7 @@ RESULTS
   },
   {
     "job_id": 168310,
+    "job_title_short": "Data Analyst",
     "job_title": "Principal Data Analyst (Remote)",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -93,6 +101,7 @@ RESULTS
   },
   {
     "job_id": 731368,
+    "job_title_short": "Data Analyst",
     "job_title": "Director, Data Analyst - HYBRID",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -102,6 +111,7 @@ RESULTS
   },
   {
     "job_id": 310660,
+    "job_title_short": "Data Analyst",
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -111,6 +121,7 @@ RESULTS
   },
   {
     "job_id": 1749593,
+    "job_title_short": "Data Analyst",
     "job_title": "Principal Data Analyst",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -120,6 +131,7 @@ RESULTS
   },
   {
     "job_id": 387860,
+    "job_title_short": "Data Analyst",
     "job_title": "ERM Data Analyst",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
