@@ -130,7 +130,7 @@ Here's the breakdown of the most demanded skills for data analysts in 2023
 
 <br>
 
-| Skills   | Demand Count |
+| skills   | demand_count |
 |----------|--------------|
 | SQL      | 7291         |
 | Excel    | 4611         |
@@ -168,7 +168,7 @@ Here's a breakdown of the results for top paying skills for Data Analysts:
 <br>
 
 
-| Skills        | Average Salary ($) |
+| skills        | avg_salary         |
 |---------------|-------------------:|
 | pyspark       |            208,172 |
 | bitbucket     |            189,155 |
