@@ -28,6 +28,13 @@ For the deep dive into the data analyst job market, I harnessed the power of sev
 
 <br>
 
+# Take a look at the relationships between tables to better understand how tables are joined!
+
+![Tables]()
+
+
+<br>
+
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how each question was approached:
 
