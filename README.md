@@ -28,9 +28,9 @@ For the deep dive into the data analyst job market, I harnessed the power of sev
 
 <br>
 
-# Take a look at the relationships between tables to better understand how tables are joined!
+### Take a look at the relationships between tables to better understand how tables are joined!
 
-![Tables]()
+![Tables](https://github.com/firaterkn/SQL_Project_Data_Analysis/blob/main/assets/Tables.PNG)
 
 
 <br>
